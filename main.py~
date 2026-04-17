@@ -1,0 +1,15 @@
+def main():
+    m fastapi import FastAPI
+
+    app = FastAPI()
+
+
+    @app.get("/")
+    def read_root():
+            return {"message": "Hello, World!"}
+
+    print("Hello from ctest!")
+
+
+if __name__ == "__main__":
+    main()
