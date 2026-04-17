@@ -1,1 +1,0 @@
-FastAPI Hello World Snippet
